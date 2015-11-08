@@ -2,11 +2,8 @@
 
 cd ~/push/
 
-tar -czf frontend.tgz frontend
+tar -czf tier1.tgz tier1
 
-scp frontend.tgz $1-web-$2:~
+scp tier1.tgz $1-app-$2:~
 
-tar -czf webserver.tgz webserver
-
-scp webserver.tgz $1-web-$2:~
 
