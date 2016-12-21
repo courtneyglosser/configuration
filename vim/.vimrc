@@ -12,7 +12,7 @@ map <leader>j <esc>:tabp<CR>
 vnoremap < <gv    " Better Indenting
 vnoremap > >gv    " Better Indenting
 
-
+syntax on " Enable syntax highlighting
 
 set number
 set tw=79   " Document width
