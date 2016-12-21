@@ -7,6 +7,7 @@ let mapleader = ","
 
 map <leader>k <esc>:tabn<CR>
 map <leader>j <esc>:tabp<CR>
+map <leader>i <esc>:tabnew<CR>
 
 
 vnoremap < <gv    " Better Indenting
